@@ -1,5 +1,4 @@
-'use strict';
-console.log('--- loading listener: _');
+"use strict";
+console.log("--- loading listener: onclick, toggleDone");
 
-document.getElementById('_')
-  .addEventListener('_', _);
+itemsList.addEventListener("click", toggleDone);

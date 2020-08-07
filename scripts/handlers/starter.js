@@ -1,9 +1,17 @@
-'use strict';
-console.log('--- loading handler: _');
+"use strict";
 
-const _ = (event) => {
+const items = JSON.parse(localStorage.getItem("items")) || [];
+localStorage.setItem("items", JSON.stringify(items));
+populateList(items, itemsList);
 
-};
+function toggleDone(e) {
+  if (!e.target.matches("input")) return; // skip this unless it's an input
+  const el = e.target;
+  const index = el.dataset.index;
+  items[index].done = !items[index].done;
+  localStorage.setItem("items", JSON.stringify(items));
+  populateList(items, itemsList);
+}
 
 /* handlers define user interactions
 
