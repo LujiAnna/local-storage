@@ -13,6 +13,7 @@ function toggleDone(e) {
   populateList(items, itemsList);
 }
 
+
 /* handlers define user interactions
 
   they read user input
