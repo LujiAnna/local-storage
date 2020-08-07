@@ -1,9 +1,8 @@
-'use strict';
-console.log('--- loading handler: _');
+"use strict";
 
-const _ = (event) => {
-
-};
+let items = JSON.parse(localStorage.getItem("items")) || [];
+localStorage.setItem("items", JSON.stringify(items));
+populateList(items, itemsList);
 
 /* handlers define user interactions
 
