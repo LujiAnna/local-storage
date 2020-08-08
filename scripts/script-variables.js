@@ -1,1 +1,1 @@
-let words = ['toad', 'road', 'roam'];
+const itemsList = document.querySelector('.plates');
