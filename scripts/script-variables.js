@@ -1,1 +1,1 @@
-let items = [];
+const itemsList = document.querySelector('.plates')
