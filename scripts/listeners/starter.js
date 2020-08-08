@@ -1,5 +1,8 @@
 'use strict';
-console.log('--- loading listener: _');
+console.log('--- loading listener: submit, addItem');
+const addItems= document.querySelector('.add-items')
+addItems.addEventListener('submit', addItem);
 
-document.getElementById('_')
-  .addEventListener('_', _);
+const itemsList = document.querySelector('.plates')
+
+console.log('--- finished listener: submit, addItem');
