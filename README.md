@@ -22,4 +22,7 @@ The live demo is on [GitHub](https://lujianna.github.io/local-storage/)
 
     -`JSON.stringify()`
     -`JSON.parse()`
+
+-[Accessing JSON data inside data attributes in JavaScript](https://css-tricks.com/a-complete-guide-to-data-attributes/) 
+
 -[Template from Hack Your Future](https://github.com/HackYourFutureBelgium/javascript-30-starter)

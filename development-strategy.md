@@ -38,14 +38,14 @@
 
 > Assigned to `Harun`
 
-- Make a ‘add` branch
+- Make a `add` branch
 - Create an issue and label the issue based on it's concern (ie. handler, logic, listener, style, ..) and update the development-strategy for any changes.
 - Grab information from form, and listen to submit event
 - Make a function addItem() to prevent default sending data to server side from form, so it stays in client side
 - Store these things in array of objects
 - The object should have checked/unchecked item and the item name
 - Make a PR, assign reviewers, and merge to master when completed
-
+    
 4. As a user I should be check and uncheck things. I should also be able to see the status when I refresh the page
 
 > Assigned to ‘ Yulia ’
@@ -59,17 +59,23 @@
 
 > Assigned to `Yulia`
 
-- Make a ‘populate` branch
+- Make a `populate` branch
 - Create an issue and label the issue based on it's concern (ie. handler, logic, listener, style, ..) and update the development-strategy for any changes.
 - Make a populate function
 - Make a PR, assign reviewers, and merge to master when completed
 
-6. as a user I should be able to clear all, or check all, or uncheck all
+6. As a user I should be able to check all, or uncheck all menu items 
 
 > Assigned to `Anna`
 
-- Make a ‘all` branch
+- Make a `all` branch
 - Create an issue and label the issue based on it's concern (ie. handler, logic, listener, style, ..) and update the development-strategy for any changes.
-- Make buttons : delete all, check all, uncheck all buttons
+- Make button: check/uncheck all buttons
+- Grab information from form, and listen to submit event
+- Make a function toggleAll() to check/uncheck all menu items
 - The page should mirror the button event
 - Make a PR, assign reviewers, and merge
+
+7. As a user I should be able to clear all
+- Next mile : make delete all button
+
