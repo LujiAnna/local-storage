@@ -34,8 +34,8 @@ function toggleAll (e) {
   // if everything true ...make all false
   // iterate through the items to get number of checked items
 
-var doneItems = 0;
-var totalItems = items.length;
+let doneItems = 0;
+const totalItems = items.length;
   for (let i = 0; i < items.length; i++) {
      if(items[i].done === true ) {
         doneItems++;
