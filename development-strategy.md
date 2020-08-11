@@ -64,7 +64,7 @@
 - Make a populate function
 - Make a PR, assign reviewers, and merge to master when completed
 
-6. As a user I should be able to check all, or uncheck all menu items
+6. As a user I should be able to check all, or uncheck all menu items 
 
 > Assigned to `Anna`
 
@@ -75,6 +75,7 @@
 - Make a function toggleAll() to check/uncheck all menu items
 - The page should mirror the button event
 - Make a PR, assign reviewers, and merge
-- Next mile : make delete all button
 
 7. As a user I should be able to clear all
+- Next mile : make delete all button
+

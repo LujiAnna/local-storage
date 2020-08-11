@@ -36,19 +36,19 @@ function toggleAll (e) {
 
 var doneItems = 0;
 var totalItems = items.length;
-  for (var i = 0; i < items.length; i++) {
+  for (let i = 0; i < items.length; i++) {
      if(items[i].done === true ) {
-          doneItems++;
+        doneItems++;
      }
    }  
 
   if (doneItems === totalItems) {
-    for (var i = 0; i < items.length; i++) {
+    for (let i = 0; i < items.length; i++) {
       items[i].done = false;
   }
 } else { // if everything false ...make all true
 
-for (var i = 0; i < items.length; i++) {
+for (let i = 0; i < items.length; i++) {
       items[i].done = true;
   }
 }
